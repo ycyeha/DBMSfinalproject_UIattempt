@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+　<head>
+    <meta charset = "utf-8">
+    <title>教學評價平台</title>
+    <style type="text/css">
+        body { background-color: rgb(184, 217, 247); }
+        p { font-size: 14pt;
+            color:rgb(17, 67, 124);
+            font-family: serif;
+            font-weight: 600;
+            text-align: center; }
+        .h1 { color: rgb(17, 67, 124);
+              font-size: 30pt;
+              text-align: center; 
+              font-family: serif;
+              font-weight: bold; }
+    </style>
+　</head>
+
+　<body>
+    <p style="float: right;">(username)</p>
+    <!-- 小白&翊鞍ㄉ設計是右上角要顯示username，但我不知道怎麼弄...QQ -->
+
+    <p class="h1">教學評價平台</p>
+
+    <form method="post" action="overallResult_student.html">
+        <p>
+            <label>課程代碼： <input name="courseID" type="search" /> </label>
+            <br>
+            <label>課程名稱： <input name="courseName" type="search" /> </label>
+            <br>
+            <label>開課學期： <input name="semester" type="search" /> </label>
+            <br>
+            <label>學分數： <input name="credit" type="search" maxlength="1" /> </label>
+            <br>
+            <label>開課系所： <input name="department" type="search" /> </label>
+            <br>
+            <label>教授： <input name="professorName" type="search" /> </label>
+        </p>
+
+        <p>
+            <input type="submit" value="查尋" />
+        </p>
+    </form>
+　</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+　<head>
+    <meta charset = "utf-8">
+    <title>撰寫評價</title>
+    <style type="text/css">
+        body { background-color: rgb(184, 217, 247); }
+        p { font-size: 14pt;
+            color:rgb(17, 67, 124);
+            font-family: serif;
+            font-weight: 600;
+            text-align: center; }
+        .h1 { color: rgb(17, 67, 124);
+              font-size: 30pt;
+              text-align: center; 
+              font-family: serif;
+              font-weight: bold; }
+    </style>
+　</head>
+
+　<body>
+    <p class="h1">撰寫評價</p>
+
+    <form method="post" action = "overallResult_student.html">
+    <!-- 應該回傳給資料庫&回到overallResult？？ -->
+
+        <p>
+            <label>甜： <input name="sweetness" type="search" maxlength="1" size="5" /> </label>
+            <br>
+            <label>涼： <input name="easyness" type="search" maxlength="1" size="5" /> </label>
+            <br>
+            <label>硬： <input name="loading" type="search" maxlength="1" size="5" /> </label>
+            <br>
+            <label>點名方式： <input name="" type="search" size="50" /> </label>
+            <br>
+            <label>加簽方式： <input name="" type="search" size="50" /> </label>
+            <br>
+            <label>考試方式： <input name="" type="search" size="50" /> </label>
+            <br>
+            <label>作業方式： <input name="" type="search" size="50" /> </label>
+            <br>
+            <label>報告方式： <input name="" type="search" size="50" /> </label>
+            <br>
+        </p>
+
+        <br>
+
+        <p>
+            <label>文字評論： <br>
+                <textarea name="text" rows="10" cols="80"></textarea>
+            </label>
+        </p>
+
+        <br>
+
+        <p>
+            <label>
+                <input type="submit" value="送出" />
+            </label>
+        </p>
+    </form>
+    
+　</body>
+
+</html>

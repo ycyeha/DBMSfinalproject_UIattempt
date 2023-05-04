@@ -1,0 +1,40 @@
+我要自己做網站，要用什麼軟體來製作？
+https://make9.tw/startup/entrepreneur/%E6%88%91%E8%A6%81%E8%87%AA%E5%B7%B1%E5%81%9A%E7%B6%B2%E7%AB%99%EF%BC%8C%E8%A6%81%E7%94%A8%E4%BB%80%E9%BA%BC%E8%BB%9F%E9%AB%94%E4%BE%86%E8%A3%BD%E4%BD%9C%EF%BC%9F/
+   --> Sublime Text3、VS code
+
+我想進行網頁製作，該用甚麼網頁設計軟體?
+https://www.da-vinci.com.tw/tw/blog/web-design-software
+
+金魚都能懂 網頁設計入門 : 用甚麼工具寫網頁? - 鐵人賽第三天
+https://ithelp.ithome.com.tw/articles/10202928
+   --> Sublime Text3、VS code
+
+--------------------------------------------------
+
+Web 入門
+https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web
+   --> 有HTML、CSS、JSㄉ基礎概念！
+
+CodePen
+https://codepen.io/
+   --> "a social development environment for front-end designers and developers"
+
+【html】1小時初學者教學 #html #html教學 #html入門
+https://www.youtube.com/watch?v=CLUPkcLQm64
+
+【css】2小時初學者教學 #css #css教學 #css入門
+https://www.youtube.com/watch?v=Ml78vnNTBLw
+
+--------------------------------------------------
+
+常用的網頁設計程式語言有哪些？網站前端後端程式怎麼區分？
+https://www.cadiis.com.tw/blog/web-design-coding
+    --> 非程式語言的標記語言：HTML
+	網頁設計常用的後端程式語言：php、.NET
+	網頁設計常用的前端程式語言：JS、jQuery、CSS
+	RWD(響應是網頁)：Bootstrap
+
+--------------------------------------------------
+
+✔️PHP+MySQL網站程式免費中文入門教學課程(廣東話)
+https://www.youtube.com/playlist?list=PL91gvBcdjUtYc96k-S6j00mVIR75o5oHr

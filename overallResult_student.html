@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+　<head>
+    <meta charset = "utf-8">
+    <title>評價概覽</title>
+    <style type="text/css">
+        body { background-color: rgb(184, 217, 247); }
+        p { font-size: 14pt;
+            color:rgb(17, 67, 124);
+            font-family: serif;
+            font-weight: 600;
+            text-align: center; }
+        .h1 { color: rgb(17, 67, 124);
+              font-size: 30pt;
+              text-align: center; 
+              font-family: serif;
+              font-weight: bold; }
+        .center { margin-left: auto;
+                  margin-right: auto; }
+        th { text-align: center; }
+        td { text-align: center; }
+    </style>
+　</head>
+
+　<body>
+    <p class="h1">評價概覽</p>
+
+    <table border="3" class="center" style="width:80%">
+        <thead class="th">
+            <tr>
+                <th>課程名稱</th>
+                <th>教授姓名</th>
+                <th>學年度</th>
+                <th>總體評分</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody class="td">
+            <tr>
+                <td>(課程名稱_1)</td>
+                <td>(教授姓名_1)</td>
+                <td>(學年度_1)</td>
+                <td>(總體評分_1)</td>
+                <td><a href="writeComments.html">我要評分</a></td>
+            </tr>
+            <tr>
+                <td>(課程名稱_2)</td>
+                <td>(教授姓名_2)</td>
+                <td>(學年度_2)</td>
+                <td>(總體評分_2)</td>
+                <td><a href="writeComments.html">我要評分</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <form method="post" action = "main_student.html">
+        <p>
+            <label>
+                <input type="submit" value="回查詢頁" />
+            </label>
+        </p>
+    </form>
+
+　</body>
+
+</html>
